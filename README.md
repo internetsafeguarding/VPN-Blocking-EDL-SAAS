@@ -11,12 +11,12 @@ Many ‘apps’ defined on the firewall detect some of a small number of commerc
 Blocking hosts or domains is helpful, but users can easily circumvent DNS controls to use external recursive DNS servers, via any number of encrypted protocols.   
 Equally many VPNs use Content Delivery Networks (CDNs) and serverless cloud services and other application frameworks to bypass DNS filtering and controls.
 
-Likewise URL filtering on the firewall is also effective in some cases with a properly curated and up to date EDL source, but many VPNs deliberately circumvent these URL controls, pretending to be other applications that are allowed, Many even bypassing solutions that fully decrypt TLS.
+Likewise URL filtering on the firewall is also effective in some use cases with a properly curated and up to date EDL source, but many VPNs deliberately circumvent these URL controls, pretending to be other applications that are allowed, Many even bypassing solutions that fully decrypt TLS.
 
 Blocking IP addresses on the firewall with EDLs is very effective at stopping these VPN’s. However you need to acquire a reliable, well curated EDL source for this, good enough to block the VPN completely and accurate enough not to cause false positives, up to date with the thousands of IP addresses that change daily.  
 Many VPN’s are now very dynamic, so just updating the EDL daily is not good enough to be effective.
 
-Likewise, just having very large lists of possible VPN IP Addresses , Domain / hostnames / ULS’s  is a high risk option, leading false positives, and the increased firewall load to deal with the lookups and EDL updates or overrunning the firewall capacity to process EDL entries..
+Just having very large lists of possible VPN IP Addresses, Domain / hostnames / ULS’s  is a high risk option, leading false positives, unwanted blocking and increased firewall load to deal with the lookups and EDL updates or overrunning the firewall capacity to process EDL entries.
 
 [Internet-safeguarding](https://internet-safeguarding.com) offer a commercial EDL solution for blocking VPNs and provides some free EDL services.  
 Registration is required even for free services
