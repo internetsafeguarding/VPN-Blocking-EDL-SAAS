@@ -1,5 +1,6 @@
 # VPN-Blocking-EDL-SAAS
-A VPN Blocking Firewall EDL / SAAS service
+A VPN Blocking Firewall EDL / SAAS service, with free options, and easy trials.
+
 # Using EDL’s to block VPN’s effectively firewalls.
 
 In order to block commercial / free VPNs on a next generation firewall such as those made by PaloAlto Networks, fortinet and other advanced firewalls;  
