@@ -24,7 +24,7 @@ Registration is required even for free services
 ## Simple installation process:
 
 On the firewall, create the EDL’s..  
-![Image showing EDL create of IPv4 VPN list on PaloAlto Firewall](https://internet-safeguarding.com/wp-content/uploads/2026/06/CreateIPv4blockEDL.png) 
+![Image showing EDL create of IPv4 VPN list on PaloAlto Firewall](https://internet-safeguarding.com/wp-content/uploads/2026/06/CreateIPv4blockEDL-1.png) 
 ![Image showing EDL create of TOR IPv4 list on PaloAlto Firewall](https://internet-safeguarding.com/wp-content/uploads/2026/06/CreateTORblockEDL.png) 
 
 Test the EDL works.  
