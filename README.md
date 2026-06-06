@@ -25,16 +25,17 @@ Registration is required even for free services
 
 On the firewall, create the EDL’s..  
 ![Image showing EDL create of IPv4 VPN list on PaloAlto Firewall](https://internet-safeguarding.com/wp-content/uploads/2026/06/CreateIPv4blockEDL.png) 
-![Image showing EDL create of TOR IPv4 list on PaloAlto Firewall](https://internet-safeguarding.com/wp-content/uploads/2026/06/CreateTORblockEDL.png)) 
+![Image showing EDL create of TOR IPv4 list on PaloAlto Firewall](https://internet-safeguarding.com/wp-content/uploads/2026/06/CreateTORblockEDL.png) 
 
 Test the EDL works.  
-![Test the EDL works](https://internet-safeguarding.com/wp-content/uploads/2026/06/CheckTOREDLworking.png)
+![Image showing testing the EDL works](https://internet-safeguarding.com/wp-content/uploads/2026/06/CheckTOREDLworking.png)
+
 Some Firewalls require you use the EDL in a policy and commit before the EDL is downloaded.
 
 Same for URLs  
-![[URL / SNI EDL](https://internet-safeguarding.com/wp-content/uploads/2026/06/CreateURLblocklist.png)
+![Image showingURL / SNI EDL](https://internet-safeguarding.com/wp-content/uploads/2026/06/CreateURLblocklist.png)
 
 Create the FW Policy or Rule using these EDLs.  
-![[Image showing Firewall Policy / rules on palo alto firewall](https://internet-safeguarding.com/wp-content/uploads/2026/06/CreateFWrulepolicywithedls.png)
+![Image showing Firewall Policy / rules on palo alto firewall](https://internet-safeguarding.com/wp-content/uploads/2026/06/CreateFWrulepolicywithedls.png)
 
 Job done.
