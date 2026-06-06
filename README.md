@@ -33,7 +33,7 @@ Test the EDL works.
 Some Firewalls require you use the EDL in a policy and commit before the EDL is downloaded.
 
 Same for URLs  
-![Image showingURL / SNI EDL](https://internet-safeguarding.com/wp-content/uploads/2026/06/CreateURLblocklist.png)
+![Image showingURL / SNI EDL](https://internet-safeguarding.com/wp-content/uploads/2026/06/CreateURLblocklist-1.png)
 
 Create the FW Policy or Rule using these EDLs.  
 ![Image showing Firewall Policy / rules on palo alto firewall](https://internet-safeguarding.com/wp-content/uploads/2026/06/CreateFWrulepolicywithedls.png)
